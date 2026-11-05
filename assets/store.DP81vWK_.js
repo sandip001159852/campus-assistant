@@ -1,0 +1,1 @@
+import{U as r,V as t}from"./index-D4Q037O6.js";const n="campus_";function s(t,s=null){try{const e=r(n+t);return""===e||null==e?s:"string"==typeof e?JSON.parse(e):e}catch(e){return console.error("getData 失败",t,e),s}}function e(r,s){try{return t(n+r,JSON.stringify(s)),!0}catch(e){return console.error("setData 失败",r,e),!1}}export{s as g,e as s};
