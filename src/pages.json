@@ -1,0 +1,105 @@
+{
+	"pages": [
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "校园助手",
+				"enablePullDownRefresh": true
+			}
+		},
+		{
+			"path": "pages/timetable/timetable",
+			"style": {
+				"navigationBarTitleText": "课程表"
+			}
+		},
+		{
+			"path": "pages/map/map",
+			"style": {
+				"navigationBarTitleText": "校园地图"
+			}
+		},
+		{
+			"path": "pages/lost/lost",
+			"style": {
+				"navigationBarTitleText": "失物招领"
+			}
+		},
+		{
+			"path": "pages/seat/seat",
+			"style": {
+				"navigationBarTitleText": "图书馆座位"
+			}
+		},
+		{
+			"path": "pages/notice/notice",
+			"style": {
+				"navigationBarTitleText": "校园公告"
+			}
+		},
+		{
+			"path": "pages/notice/detail",
+			"style": {
+				"navigationBarTitleText": "公告详情"
+			}
+		},
+		{
+			"path": "pages/login/login",
+			"style": {
+				"navigationBarTitleText": "登录"
+			}
+		},
+		{
+			"path": "pages/admin/admin",
+			"style": {
+				"navigationBarTitleText": "管理后台"
+			}
+		},
+		{
+			"path": "pages/account/account",
+			"style": {
+				"navigationBarTitleText": "账号管理"
+			}
+		},
+		{
+			"path": "pages/profile/profile",
+			"style": {
+				"navigationBarTitleText": "个人主页"
+			}
+		}
+	],
+	"tabBar": {
+		"color": "#999999",
+		"selectedColor": "#42b883",
+		"backgroundColor": "#ffffff",
+		"borderStyle": "black",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "主页"
+			},
+			{
+				"pagePath": "pages/timetable/timetable",
+				"text": "课程表"
+			},
+			{
+				"pagePath": "pages/map/map",
+				"text": "地图"
+			},
+			{
+				"pagePath": "pages/lost/lost",
+				"text": "失物"
+			},
+			{
+				"pagePath": "pages/notice/notice",
+				"text": "公告"
+			}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "校园助手",
+		"navigationBarBackgroundColor": "#42b883",
+		"backgroundColor": "#f5f6f8"
+	}
+}
